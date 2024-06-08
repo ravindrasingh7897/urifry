@@ -9,10 +9,15 @@ body {
 *:root{
     --primary-color: #edf2fc;
     --secondary-color: #212121;
+    --white-color:rgb(124, 119, 119);
+
+    
+    
 }
 .dark-theme{
     --primary-color: #212121;
     --secondary-color:#edf2fc;
+    --white-color:white;
 }
 
 .navbar {
@@ -132,6 +137,13 @@ body {
 .first-text {
     display: flex;
     flex-direction: column;
+}
+
+.first .first-text p{
+    color: var( --white-color);
+}
+#p{
+    color: var( --white-color);
 }
 
 .first h2 {
