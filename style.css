@@ -130,7 +130,7 @@ body {
     align-items: center;
     width: 70%;
     margin: 120px auto;
-    /* margin: auto; */
+    
     gap: 10vw;
 }
 
@@ -147,7 +147,7 @@ body {
 }
 
 .first h2 {
-    /* max-width: 70%; */
+    
     font-weight: 900;
     font-size: 60px;
     position: relative;
@@ -155,7 +155,7 @@ body {
 }
 
 .first p {
-    /* max-width: 60%; */
+   
     font-size: 18px;
     font-weight: 600;
     color: #0006;
